@@ -9,7 +9,7 @@ export const Header = () => {
 
     return (
       <>
-        <div className="" style={{ backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="w-full" style={{ backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <nav className="flex justify-end md:justify-center p-6 lg:px-8" aria-label="Global">
             {/* hamburger meny */}
             <div className="flex items-center md:hidden">

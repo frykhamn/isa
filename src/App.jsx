@@ -7,10 +7,10 @@ import { Header } from "./componenets/Header";
 function App() {
   return (
     <Router>
-      <header>
+      <header className="bg-bgLight">
         <Header />
       </header>
-      <main>
+      <main className="bg-bgLight">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
