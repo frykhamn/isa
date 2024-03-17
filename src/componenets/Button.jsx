@@ -1,0 +1,13 @@
+import React from 'react'
+
+export default function Button({ text, handleClick }) {
+
+    return (
+        <button
+            className={`py-2 px-4 rounded-md bg-bgPrimary w-48 h-12 uppercase`}
+            onClick={handleClick}
+        >
+            {text}
+        </button>
+    )
+}
