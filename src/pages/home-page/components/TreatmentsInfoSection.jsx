@@ -15,8 +15,8 @@ export const TreatmentsInfoSection = () => {
   const [selectedTreatment, setSelectedTreatment] = useState('');
 
   return (
-    <section className="flex py-40">
-      <div className="flex mx-auto flex-col pb-20">
+    <section className="flex">
+      <div className="flex mx-auto flex-col">
         <div className="w-80 md:w-[22rem] font-cor mx-auto mb-12 mt-14">
           <h2 className='text-center text-6xl tracking-wider md:text-6xl '>What dose your body crave?</h2>
         </div>

@@ -14,8 +14,13 @@ export default {
 
       },
       fontFamily: {
-        "robo": ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
-        "cor": ['Cormorant Garamond', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+        "robo": ['Roboto', 'ui-sans-serif', 'system-ui'],
+        "cor": ['Cormorant Garamond', 'ui-sans-serif', 'system-ui'],
+      },
+      fontWeight: {
+        'normal': '400',
+        'bold': '700',
+        // Add other weights as needed
       },
     },
   },
