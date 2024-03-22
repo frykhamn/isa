@@ -6,18 +6,18 @@ import { PiHandsPrayingFill } from "react-icons/pi";
 export const TreatmenstSection = () => {
   return (
     <div className="container mx-auto grid md:grid-cols-2 gap-6  items-center pt-12 px-4 lg:px-8 ">
-      <h2 className="font-cor text-4xl md:text-5xl font-bold mb-16">
+      <h2 className="font-cor text-4xl md:text-5xl font-bold mb-16 pl-4">
         How can you get to know your nervous system?
       </h2>
-      <div className="lg:col-span-1 ">
-        <div className="1 ">
+      <div className="lg:col-span-1 pt-6">
+        <div className=" ">
           <p className="text-sm text-textAcc font-bold mb-3">
             The Nervous System
           </p>
           <h3 className="font-cor font-bold text-3xl mb-3">
             An introductory conversation
           </h3>
-          <p className="mb-6 max-w-[28rem]">
+          <p className="mb-6 max-w-[24rem]">
             If you haven't been attuned to your body before, it's not obvious
             how a dialogue could look. Therefore, you might need help starting
             to listen, talk, and be willing to connect with the body.
@@ -58,8 +58,8 @@ export const TreatmenstSection = () => {
           </li>
         </ul>
       </div>
-      <div className="">
-        <img src={wave} alt="Body Illustration" className="md:max-h-[28rem]" />
+      <div className="relative md:max-h-[28rem] overflow-hidden rounded-lg">
+        <img src={wave} alt="Body Illustration" className="object-fit md:w-full md:h-full " />
       </div>
     </div>
   );

@@ -16,8 +16,10 @@ export default {
       fontFamily: {
         "robo": ['Roboto', 'ui-sans-serif', 'system-ui'],
         "cor": ['Cormorant Garamond', 'ui-sans-serif', 'system-ui'],
+        "mon": ['Montserrat', 'ui-sans-serif', 'system-ui'],
       },
       fontWeight: {
+        'light': '300',
         'normal': '400',
         'bold': '700',
         // Add other weights as needed
