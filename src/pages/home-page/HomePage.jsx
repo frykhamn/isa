@@ -5,6 +5,7 @@ import VideoComponent from "./components/VideoSection";
 import { RetreatsSection } from "./components/RetreatsSection";
 import { BreathworkSection } from "./components/BreathworkSection";
 import hero from "./../../assets/hero.png";
+import { MailSection } from "../../componenets/MailSection";
 
 export default function HomePage() {
   return (
@@ -28,13 +29,16 @@ export default function HomePage() {
       <section className="conatiner mx-auto w-4/5 xl:max-w-[1000px]">
   <RetreatsSection></RetreatsSection>
       </section>
-      <section className="w-full h-[32rem] md:h-[42rem] xl:h-[48rem] mt-24"
+      <section className="w-full h-[38rem] md:h-[42rem] xl:h-[48rem] mt-24 grid place-content-center border-2"
       style={{
         backgroundImage: `url(${hero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
         <BreathworkSection></BreathworkSection>
+        </section>
+        <section>
+        <MailSection></MailSection>
         </section>
     </>
   );
