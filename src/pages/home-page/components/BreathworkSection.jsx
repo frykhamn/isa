@@ -5,7 +5,7 @@ import Button from "../../../componenets/Button";
 
 export const BreathworkSection = () => {
   return (
-    <div className="grid sm:grid-cols-2 mx-auto md:max-w-[1000px]">
+    <div className="grid md:grid-cols-2 md:border mx-auto md:max-w-[800px] py-10">
       <div className="col-1 px-8">
         <h1 className="uppercase text-4xl font-cor font-semibold text-textLight tracking-widest mb-4">
           breathwork
@@ -25,7 +25,7 @@ export const BreathworkSection = () => {
           <Button text="Groups" />
         </div>
       </div>
-      <div className="hidden sm:flex sm:w-80 sm:h-80 sm:self-center">
+      <div className="hidden md:flex sm:w-80 sm:h-80 sm:self-center ml-10">
         <img src={circle} alt="image of circle" />
       </div>
     </div>
