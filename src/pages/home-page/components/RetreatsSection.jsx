@@ -1,5 +1,6 @@
 import React from "react";
 import gold from "../../../assets/gold.png";
+import { Link, useNavigate } from "react-router-dom";
 
 export const RetreatsSection = () => {
   return (
@@ -12,32 +13,62 @@ export const RetreatsSection = () => {
         non, dignissimos, nulla,
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        {retreats.map((retreat, index) => (
+          <Card key={index} retreat={retreat} />
+        ))}
       </div>
     </div>
   );
 };
 
-const Card = () => {
+const retreats = [
+  {
+    title: "Happy feet",
+    date: "May 5th 2024",
+    description:
+      "2h workshop focusing on the feet. We will work with tune up balls and the body's connection to the ground. The workshop is held at the studio in Stockholm.",
+    image: gold,
+  },
+  {
+    title: "Yoga weekend",
+    date: "June 23-25th 2024",
+    description:
+      "Weekend on Gotland with yoga, meditation and relaxation. We stay at the beautiful hotel Fabriken Furillen.",
+    image: gold,
+  },
+
+];
+
+const Card = ({ retreat }) => {
+  const nav = useNavigate();
+  const { title, description, image } = retreat;
+
+  const handleNav = () => {
+    nav("/retreats", { state: { title } });
+  };
+
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-lg">
       <div className="flex flex-col">
         <div className="relative">
           <img
-            className="h-56 w-full object-cover "
-            src={gold}
-            alt="Modern building architecture"
+            className="h-56 w-full object-cover"
+            src={image}
+            alt="information about retreat"
           />
+          <span className="absolute top-16 left-16 right-0 bottom-0">
+            <h2 className="uppercase text-4xl font-cor font-bold tracking-widest">{retreat.title}</h2>
+          </span>
         </div>
-        <div className="p-8">
-          <h4 className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">
-            Incredible accommodation for your team
+        <div className="px-8 pb-8 pt-6">
+          <h4 className="block mt-1 text-lg leading-tight font-medium text-black ">
+            {retreat.date}
           </h4>
-          <p className="mt-2 text-slate-500">
-            Looking to take your team away on a retreat to enjoy awesome food
-            and take in some sunshine? We have a list of places to do just that.
+          <p className="mt-4 text-slate-500">
+            {description}{" "}
+            <span onClick={handleNav} className="text-blue-700 ml-2">
+              Read more
+            </span>
           </p>
         </div>
       </div>

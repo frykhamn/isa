@@ -10,14 +10,14 @@ import { MailSection } from "../../componenets/MailSection";
 export default function HomePage() {
   return (
     <>
-      <section className="conatiner mx-auto pt-32 w-4/5 xl:max-w-[1000px]">
+      <section className="conatiner mx-auto pt-32 md:w-4/5 xl:max-w-[1000px]">
         <TreatmentsInfoSection></TreatmentsInfoSection>
       </section>
-      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[53rem]"></div>
+      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[43rem] lg:w-[53rem] "></div>
       <section className="conatiner mx-auto w-4/5 xl:max-w-[1000px]">
         <TreatmenstSection></TreatmenstSection>
       </section>
-      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[53rem]"></div>
+      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[43rem] lg:w-[53rem] "></div>
       <section className="conatiner mx-auto w-4/5 xl:max-w-[1000px]">
         <VideoComponent
           title="SELF CARE"
@@ -25,21 +25,23 @@ export default function HomePage() {
           videoLink="your-video-url-here"
         />
       </section>
-      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[53rem]"></div>
+      <div className="border-2 mx-auto border-textAcc my-24 w-80 sm:w-96 md:w-[43rem] lg:w-[53rem] "></div>
       <section className="conatiner mx-auto w-4/5 xl:max-w-[1000px]">
-  <RetreatsSection></RetreatsSection>
+        <RetreatsSection></RetreatsSection>
       </section>
-      <section className="w-full h-[38rem] md:h-[42rem] xl:h-[48rem] mt-24 grid place-content-center border-2"
-      style={{
-        backgroundImage: `url(${hero})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}>
+      <section
+        className="w-full h-[38rem] md:h-[42rem] xl:h-[48rem] mt-24 grid place-content-center"
+        style={{
+          backgroundImage: `url(${hero})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <BreathworkSection></BreathworkSection>
-        </section>
-        <section>
+      </section>
+      <section>
         <MailSection></MailSection>
-        </section>
+      </section>
     </>
   );
 }

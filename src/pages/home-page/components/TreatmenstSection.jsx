@@ -6,7 +6,7 @@ import { PiHandsPrayingFill } from "react-icons/pi";
 export const TreatmenstSection = () => {
   return (
     <div className="container mx-auto grid md:grid-cols-2 gap-6  items-center pt-12 px-4 lg:px-8 ">
-      <h2 className="font-cor text-4xl md:text-5xl font-bold mb-16 pl-4">
+      <h2 className="font-cor text-5xl font-bold mb-16 pl-4">
         How can you get to know your nervous system?
       </h2>
       <div className="lg:col-span-1 pt-6">

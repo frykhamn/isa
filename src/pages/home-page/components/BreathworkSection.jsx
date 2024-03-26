@@ -26,7 +26,7 @@ export const BreathworkSection = () => {
         </div>
       </div>
       <div className="hidden sm:flex sm:w-80 sm:h-80 sm:self-center">
-        <img src={circle} alt="" />
+        <img src={circle} alt="image of circle" />
       </div>
     </div>
   );
