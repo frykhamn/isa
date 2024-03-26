@@ -1,11 +1,12 @@
 import React from 'react';
+import { InfoSection } from './components/InfoSection';
 
 const AboutPage = () => {
     return (
-        <div>
-            <h1>About Page</h1>
-            <p>Welcome to the About Page!</p>
-        </div>
+        <section className="conatiner mx-auto pt-32 md:w-4/5 xl:max-w-[1000px]">
+      <InfoSection></InfoSection>
+      </section>
+
     );
 };
 

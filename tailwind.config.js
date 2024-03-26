@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         "robo": ['Roboto', 'ui-sans-serif', 'system-ui'],
         "cor": ['Cormorant Garamond', 'ui-sans-serif', 'system-ui'],
+        "all" : ['Allura', 'ui-sans-serif', 'system-ui'],
         "mon": ['Montserrat', 'ui-sans-serif', 'system-ui'],
       },
       fontWeight: {
