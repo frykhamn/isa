@@ -1,6 +1,5 @@
 import React from "react";
 import circle from "./../../../assets/circle.png";
-import { Link } from "react-router-dom";
 import Button from "../../../componenets/Button";
 
 export const BreathworkSection = () => {

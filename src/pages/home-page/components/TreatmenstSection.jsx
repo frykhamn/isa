@@ -59,7 +59,7 @@ export const TreatmenstSection = () => {
         </ul>
       </div>
       <div className="relative md:max-h-[28rem] overflow-hidden rounded-lg">
-        <img src={wave} alt="Body Illustration" className="object-fit md:w-full md:h-full " />
+        <img src={wave} alt="Body Illustration" className="object-fit sm:w-[448px] md:h-full " />
       </div>
     </div>
   );

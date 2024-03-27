@@ -1,5 +1,6 @@
 import React from "react";
 import gold from "../../../assets/gold.png";
+
 import { Link, useNavigate } from "react-router-dom";
 
 export const RetreatsSection = () => {
@@ -48,15 +49,15 @@ const Card = ({ retreat }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-lg">
+    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
       <div className="flex flex-col">
         <div className="relative">
           <img
-            className="h-56 w-full object-cover"
+            className="h-56 w-full ml-0"
             src={image}
             alt="information about retreat"
           />
-          <span className="absolute top-16 left-16 right-0 bottom-0">
+          <span className="absolute top-16 left-10 right-0 bottom-0 max-w-20">
             <h2 className="uppercase text-4xl font-cor font-bold tracking-widest">{retreat.title}</h2>
           </span>
         </div>

@@ -13,7 +13,7 @@ export const MailSection = () => {
           Retreats and Workshops
         </h1>
         <p className="text-center px-4  mt-4 text-lg font-cor font-bold">
-          Want to know whan I offer retreats and workshops? Sign up so you dontt
+          Want to know whan I offer retreats and workshops? Sign up so you don't
           have to keep track of this site.
         </p>
         <div className="flex flex-col pb-4 lg:flex-row gap-4 mt-4">
