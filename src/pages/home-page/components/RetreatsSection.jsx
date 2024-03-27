@@ -49,7 +49,7 @@ const Card = ({ retreat }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+    <div className="max-w-md mx-auto bg-white rounded-sm shadow-md overflow-hidden ">
       <div className="flex flex-col">
         <div className="relative">
           <img
