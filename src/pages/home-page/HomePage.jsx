@@ -8,6 +8,9 @@ import hero from "./../../assets/hero.png";
 import { MailSection } from "../../componenets/MailSection";
 
 export default function HomePage() {
+
+
+
   return (
     <>
       <section className="conatiner mx-auto pt-32 md:w-4/5 xl:max-w-[1000px]">
