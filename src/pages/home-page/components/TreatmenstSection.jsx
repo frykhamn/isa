@@ -1,5 +1,6 @@
 import React from "react";
 import wave from "../../../assets/wave.png";
+import hands from "../../../assets/hands.webp";
 import { FaHeart, FaRecycle } from "react-icons/fa";
 import { PiHandsPrayingFill } from "react-icons/pi";
 
