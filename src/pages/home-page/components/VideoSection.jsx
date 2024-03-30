@@ -12,8 +12,10 @@ const VideoComponent = ({ title, subtitle, videoLink }) => {
       <h3 className="text-center text-2xl font-cor font-bold uppercase mb-4 mt-6">
         {subtitle}
       </h3>
-      <div className="self-center w-4/5 lg:max-w-[978px] aspect-h-9 border mt-10">
-        <img src={video} alt="" />
+      <div className="self-center w-4/5 lg:max-w-[978px] aspect-h-9  mt-10 flex gap-5 md:flex-row flex-col justify-center">
+        <img src={video} alt="" className="md:w-40"/>
+        <img src={video} alt="" className="md:w-40"/>
+        <img src={video} alt="" className="md:w-40"/>
         {/*      <iframe
           className="w-full h-full"
           src={videoLink}
@@ -29,7 +31,7 @@ const VideoComponent = ({ title, subtitle, videoLink }) => {
         in order to become friends with itself?
       </p>
       <p className="pt-4 self-center max-w-[32rem] leading-loose">
-      Video material or audio files. Choose what suits you. You can find more recordings <Link className="text-textAcc">Here</Link>
+        Video material or audio files. Choose what suits you. You can find more recordings <Link className="text-textAcc">Here</Link>
       </p>
     </div>
   );

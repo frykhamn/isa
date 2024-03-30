@@ -4,7 +4,7 @@ import border from "../assets/border.png";
 
 export const MailSection = () => {
   return (
-    <div className="container mx-auto py-36 flex justify-center ">
+    <div className="container mx-auto pt-20 flex justify-center ">
       <form
         className="flex flex-col items-center  bg-gray-200 md:w-[900px]"
         onSubmit={(e) => e.preventDefault()}
