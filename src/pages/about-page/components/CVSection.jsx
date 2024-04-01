@@ -31,7 +31,7 @@ export const CVSection = () => {
                             Four-star hotel spa concept worldwide ResonDetre (link)
                         </p>
                         <p>
-                            Creator of Grand Hotel's spa concept (link)
+                            Educator at HumaNova (link)
                         </p>
                     </div>
                 </div>
