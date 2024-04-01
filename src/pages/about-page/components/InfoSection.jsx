@@ -8,7 +8,7 @@ export const InfoSection = () => {
         <h1 className="font-all text-8xl mx-6 md:mx-0">Isabella Dos Santos</h1>
       </div>
       <div className="grid md:grid-cols-2">
-        <div className="p-10">
+        <div className="p-10 text-lg">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Voluptatibus, rerum. Maxime dolor ad dignissimos recusandae
@@ -30,25 +30,15 @@ export const InfoSection = () => {
             placeat debitis, commodi maxime qui recusandae consequuntur dolor
             quis accusamus quam ut nulla provident temporibus? Iusto! Dolore,
             quae. Inventore earum dolorem modi culpa quod numquam! Error
-            voluptatibus sequi deleniti libero cumque, ut amet eaque ducimus
-            praesentium sit assumenda quasi delectus corrupti!{" "}
-          </p>
-          <p>
-            <br />
-            Ullam commodi possimus accusantium cumque fuga minima dicta neque
-            totam nihil odit provident! Earum officia maxime distinctio?
-            Perferendis fuga ipsum dolore sit nihil ab laudantium distinctio
-            veritatis
+            voluptatibus sequi deleniti libero cumque
           </p>
         </div>
-        <div className="md:p-10 px-10 flex flex-col">
+        <div className="md:p-10 px-10 flex flex-col text-lg">
           <p>
             Libero eius hic a assumenda atque! Ullam nisi laboriosam aperiam
             reprehenderit consequatur vero blanditiis illum suscipit ipsum
             obcaecati vitae amet eum, voluptatem omnis iste quidem excepturi
-            ipsa nobis fuga dicta earum aliquid at? Laudantium, dicta beatae.
-            Quae non quia dolor, iusto error quibusdam ipsum architecto sed
-            temporibus nostrum asperiores.
+            ipsa nobis fuga dicta earum 
           </p>
           <img src={profile} alt="" className="p-4 mt-4 md:place-self-center" />
         </div>

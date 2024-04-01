@@ -9,15 +9,12 @@ export const BreathworkSection = () => {
         <h1 className="uppercase text-4xl font-cor font-semibold text-textLight tracking-widest mb-4">
           breathwork
         </h1>
-        <p className="text-white font-cor">
+        <p className="text-white font-cor text-lg">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae,
           omnis minus corporis corrupti quam quisquam dolorum quis quod dolore
           inventore dicta delectus iure ex aut, in provident, impedit
           reprehenderit! Aut velit similique minus voluptatem pariatur repellat,
-          animi labore nam natus earum dolores cupiditate dolorum non culpa ad
-          ut praesentium debitis! Atque, architecto similique veritatis hic nam
-          eum expedita consequuntur! Temporibus delectus quam ab culpa, quaerat
-          natus similique suscipit.
+          animi labore nam natus.
         </p>
         <div className="flex sm:flex-row flex-col gap-5 md:gap-10 mt-7">
           <Button text="1 on 1" />
